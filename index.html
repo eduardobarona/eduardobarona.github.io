@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/stylesheets/style.css">
+    <title>Curriculum Vitae</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Curriculum Vitae</h1>
+    </header>
+
+    <!-- Nav: Inicio -->
+    <nav>
+      <ul>
+        <li><a href="#seccionDatos">Datos Personales</a></li>
+        <li><a href="#seccionRedes">Redes Sociales</a></li>
+        <li><a href="#seccionHabilidades">Habilidades</a></li>
+        <li><a href="#seccionGaleria">Galería</a></li>
+        <li><a href="#seccionContactenos">Contáctenos</a></li>
+      </ul>
+    </nav>
+    <!-- Nav: Fin -->
+
+    <section id="seccionDatos">
+      <h2>Datos personales</h2>
+
+      <span>Nombres: Eduardo Geovanny</span>
+      <br>
+      <span>Apellidos: Barona Zambrano</span>
+
+      <p>
+        ¡Hola! Soy Eduardo Barona, con experiencia en desarrollo web en front
+        end y back end. Participo en todas las etapas del ciclo de desarrollo de
+        proyectos web dinámicos. Además, tengo sólidos conocimientos en gestión
+        de proyectos y relaciones con los clientes.
+      </p>
+    </section>
+
+    <section id="seccionRedes">
+      <h2>Redes sociales</h2>
+
+      <span
+        ><a href="https://www.linkedin.com/in/edubarona" target="_blank"
+          >LinkedIn</a
+        ></span
+      >
+      <span
+        ><a href="https://github.com/eduardobarona" target="_blank"
+          >Github</a
+        ></span
+      >
+    </section>
+
+    <section id="seccionHabilidades">
+      <h2>Habilidades Profesionales</h2>
+      <ul>
+        <li>HTML & CSS</li>
+        <li>JavaScript</li>
+        <li>ReactJS</li>
+        <li>Django</li>
+        <li>Express</li>
+      </ul>
+    </section>
+
+    <h2>Idiomas</h2>
+    <table>
+      <caption>
+        Habilidad en idiomas
+      </caption>
+      <tr>
+        <th></th>
+        <th>Básico</th>
+        <th>Intermedio</th>
+        <th>Avanzado</th>
+        <th>Nativo</th>
+      </tr>
+      <tr>
+        <th>Inglés</th>
+        <td></td>
+        <td></td>
+        <td>X</td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>Español</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>X</td>
+      </tr>
+    </table>
+
+    <h2>Contenidos Transversales</h2>
+    <ol>
+      <li>Docker</li>
+      <li>AWS</li>
+      <li>CI/CD</li>
+      <li>Scrum</li>
+    </ol>
+
+    <section id="seccionGaleria">
+      <img src="public/images/reading.jpg" alt="Reading" width="30">
+      <img
+        src="https://cdn.pixabay.com/photo/2015/05/29/19/18/cafe-789635_960_720.jpg"
+        alt="Foto de colaboración"
+        width="30"
+      >
+    </section>
+
+    <section id="seccionContactenos">
+      <h2>Contáctame</h2>
+      <h3>Sus datos</h3>
+
+      <form>
+        <label for="nombre">Nombres:</label
+        ><input type="text" name="nombre" id="nombre">
+        <label for="nombre">Apellidos:</label
+        ><input type="text" name="apellidos" id="apellidos"><br>
+
+        <label for="edad">Seleccione su rango de edad</label><br>
+        <input type="radio" id="opcion1" name="edad" value="menor25"><label
+          for="si"
+        >
+          menor a 25 años</label
+        >
+        <input type="radio" id="opcion2" name="edad" value="entre26y20"><label
+          for="si"
+        >
+          entre 26 y 30 años</label
+        >
+        <input type="radio" id="opcion3" name="edad" value="mayor31"><label
+          for="si"
+        >
+          mayor a 31 años</label
+        ><br><br>
+
+        <label for="tipodeservicio" id="tipodservicio"
+          >Seleccione el tipo de servicio a consultar</label
+        ><br>
+        <input type="checkbox" name="frontend" id="frontend"><label
+          for="frontend" id="frontend"
+          >Frontend Dev</label
+        ><br>
+        <input type="checkbox" name="backend" id="backend"><label
+          for="backend" id="backend"
+          >Backend Dev</label
+        ><br>
+        <input type="checkbox" name="scrum" id="scrum"><label for="scrum" id="scrum"
+          >Desarrollo de software</label
+        ><br>
+        <input type="checkbox" name="cicd" id="cicd"><label for="cicd" id="cicd"
+          >CI/CD</label
+        ><br>
+        <button type="submit">Enviar</button>
+      </form>
+
+      <h3>Ubicación</h3>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1993.3996463224325!2d-79.89230341002006!3d-2.229061279847824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d6febc1b6e6f9%3A0x50d2c65e353ee934!2sAGUA%20PURAQUA!5e0!3m2!1sen!2sec!4v1705896882181!5m2!1sen!2sec"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+
+    <footer>
+      <address>
+        Email: <a href="mailto:ebarona@espol.edu.ec">ebarona@espol.edu.ec</a
+        ><br>
+        Tel: <a href="tel:+593989722541">+593 989722541</a><br><br>
+        DIRECCIÓN: Guayaquil<br>
+        CIUDAD: Guayaquil<br>
+        PAÍS: Ecuador
+      </address>
+    </footer>
+  </body>
+</html>
