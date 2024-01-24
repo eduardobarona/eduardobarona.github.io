@@ -1,8 +1,8 @@
 h1 {
     font-style: italic;
-  }
+}
 
-#secciondatos {
+#seccionDatos {
     width: 50%;
     margin: 0 auto;
 }
@@ -19,7 +19,7 @@ span{
     text-align: center;
 }
 
-#seccionredes{
+#seccionRedes{
     width: 30%;
     margin: 0 auto;
     text-align: center;
