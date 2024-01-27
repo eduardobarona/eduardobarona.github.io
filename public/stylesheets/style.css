@@ -63,4 +63,45 @@ nav ul{
     color: #373B41;
 }
 
+#seccionContactenos{
+    display: grid;
+    grid-template-areas: 'area1 area1 area1 area1'
+                         'area2 area2 area3 area3'
+                         'area4 area4 area5 area5';
+}
+
+#contactame{
+    grid-area: area1;
+}
+
+#susdatos{
+    grid-area: area2;
+}
+
+#ubicacion{
+    grid-area: area3;
+}
+
+#formulario{
+    grid-area: area4;
+}
+
+#mapa{
+    grid-area: area5;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer address{
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
 
