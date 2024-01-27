@@ -124,34 +124,45 @@
 
         <form id="formulario">
           <label for="nombre">Nombres:</label><input type="text" name="nombre" id="nombre" />
-          <label for="nombre">Apellidos:</label><input type="text" name="apellidos" id="apellidos" /><br />
-
+          <label for="nombre">Apellidos:</label><input type="text" name="apellidos" id="apellidos" />
           <label for="edad">Seleccione su rango de edad</label>
-          <input type="radio" id="opcion1" name="edad" value="menor25" /><label for="si"> menor a 25 años</label>
-          <input
+          <div class="cajaConfirmacion">
+            <input type="radio" id="opcion1" name="edad" value="menor25"/><label for="si"> menor a 25 años</label>
+          </div>
+            
+          <div class="cajaConfirmacion">
+            <input
             type="radio"
             id="opcion2"
-            name="edad"
+            name="edad" 
             value="entre26y20"/>
-          <label for="si"> entre 26 y 30 años</label>
-          <input type="radio" id="opcion3" name="edad" value="mayor31" /><label for="si">mayor a 31 años</label>
+            <label for="si"> entre 26 y 30 años</label>
+          </div>
 
+          <div class="cajaConfirmacion">
+            <input type="radio" id="opcion3" name="edad" value="mayor31" /><label for="si">mayor a 31 años</label>
+          </div>
+          
           <label for="tipodeservicio" id="tipodservicio">Seleccione el tipo de servicio a consultar</label>
 
-          <input type="checkbox" name="frontend" id="frontend" /><label
-            for="frontend"
-            id="frontend">Frontend Dev</label>
+          <div class="cajaConfirmacion">
+            <input type="checkbox" name="frontend" id="frontend" /><label for="frontend" id="frontend">Frontend Dev</label>
+          </div>
 
-          <input type="checkbox" name="backend" id="backend" /><label for="backend"
-            id="backend">Backend Dev</label>
+          <div class="cajaConfirmacion">
+            <input type="checkbox" name="backend" id="backend" /><label for="backend" id="backend">Backend Dev</label>
+          </div>
+          
+          <div class="cajaConfirmacion">
+            <input type="checkbox" name="scrum" id="scrum" /><label for="scrum" id="scrum">Desarrollo de software</label>
+          </div>
 
-          <input type="checkbox" name="scrum" id="scrum" /><label
-            for="scrum"
-            id="scrum">Desarrollo de software</label>
-
-          <input type="checkbox" name="cicd" id="cicd" /><label
+          <div class="cajaConfirmacion">
+            <input type="checkbox" name="cicd" id="cicd" /><label
             for="cicd"
             id="cicd">CI/CD</label>
+          </div>
+    
           <button type="submit">Enviar</button>
         </form>
       </div>
@@ -159,9 +170,9 @@
 
       <div class="mapa">
         
-      <div id="ubicacion">
-        <h3 class="ubicacion">Ubicación</h3>
-      </div>
+        <div id="ubicacion">
+          <h3 class="ubicacion">Ubicación</h3>
+        </div>
         <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1993.3996463224325!2d-79.89230341002006!3d-2.229061279847824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d6febc1b6e6f9%3A0x50d2c65e353ee934!2sAGUA%20PURAQUA!5e0!3m2!1sen!2sec!4v1705896882181!5m2!1sen!2sec"
         width="400"
@@ -176,18 +187,18 @@
 
     <footer>
       <address>
-        Email: <a href="mailto:ebarona@espol.edu.ec">ebarona@espol.edu.ec</a>
-        Tel: <a href="tel:+593989722541">+593 989722541</a>
-        <div>
+        <span>Email: <a href="mailto:ebarona@espol.edu.ec">ebarona@espol.edu.ec</a></span>
+        <span>Tel: <a href="tel:+593989722541">+593 989722541</a></span>
+        <span>
           DIRECCIÓN: Guayaquil
-        </div>
-        <div>
+        </span>
+        <span>
           CIUDAD: Guayaquil
-        </div>
-        <div>
+        </span>
+        <span>
           PAÍS: Ecuador
-        </div>
+        </span>
       </address>
     </footer>
-  </body>
+  </body> 
 </html>
