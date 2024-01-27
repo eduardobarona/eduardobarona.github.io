@@ -1,0 +1,66 @@
+/* Todos los elementos HTML usarán la fuente "Open Sans", sans-serif */
+
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* El elemento body sin margen y sin relleno */
+
+body {
+    margin: 0;
+    margin-top: -25px;
+    padding: 0;
+}
+
+/* El elemento header tendrá una imagen de fondo */
+
+header {
+    background-image: url('../images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    height: 450px;
+    display: flex;
+    align-items: flex-end;
+}
+
+header img{
+    width: 100px;
+    border: 10px solid white;
+    margin-bottom: 40px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.header_text{
+    width: 50%;
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+main{
+    margin-left: 10px;
+}
+
+.mainContainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+main img{
+    width: 140px;
+    border: 10px solid white;
+}
+
+a{
+    text-decoration: none;
+}

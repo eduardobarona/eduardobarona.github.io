@@ -1,0 +1,51 @@
+/* Todos los elementos HTML usarán la fuente "Open Sans", sans-serif */
+
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* El elemento body sin margen y sin relleno */
+
+body {
+    margin: 0;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 0;
+    display: flex;
+}
+
+body div div img{
+    margin: 100px;
+    margin-top: 20px;
+    width: 200px;
+    border: 10px solid white;
+}
+
+br{
+    width: 10px;
+    color: red;
+}
+
+.textImage{
+    display: flex;
+}
+
+.onlyText{
+    width: 50%;
+}
+
+.container{
+    border-right-color: red;
+    border-right-width: 2px;
+    border-right-style: solid;
+    margin-right: 20px;
+}
+
+aside img{
+    width: 80px;
+    border: 20px solid white;
+}
+
+.publicacion{
+    margin-left: 300px;
+}
